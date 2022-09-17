@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Abhisit Profile Site</title>
+  <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+  <!--line 7,18: Exeternal Resource Link  
+        font-family Ref:https://www.w3schools.com/whatis/tryit.asp?font=Aclonica -->
+  <style>
+    body {
+      background-color: rgb(0, 0, 0);
+      color: #dbdbdb
+    }
+
+    .btn-4 {
+      overflow: hidden;
+      color: #fff;
+      border-radius: 30px;
+      box-shadow: 0px -0px 0px 0px rgba(143, 64, 248, .5), 0px 0px 0px 0px rgba(39, 200, 255, .5);
+    }
+
+    .btn-4:hover {
+      transform: translate(0, -6px);
+      box-shadow: 10px -10px 25px 0px rgba(143, 64, 248, .25), -10px 10px 25px 0px rgba(39, 200, 255, .25);
+    }
+
+    .btn-4:hover::after {
+      transform: rotate(150deg);
+    }
+
+    .btn-4::after {
+      content: '';
+      width: 400px;
+      height: 400px;
+      position: absolute;
+      top: -50px;
+      left: -100px;
+      background-color: #FF3CAC;
+      background-image: linear-gradient(225deg, #27d86c 0%, #26caf8 50%, #c625d0 100%);
+      z-index: -1;
+      transition: all .5s ease;
+    }
+
+    button {
+      padding: 20px 50px;
+      font-size: 1.5rem;
+      cursor: pointer;
+      border: 0px;
+      background: transparent;
+      position: relative;
+      margin: 20px;
+      transition: all .25s ease;
+    }
+  </style>
+</head>
+
+
+<body>
+  <!-- Header -->
+  <!-- Ref:https://developer.mozilla.org/en-US/docs/Web/CSS/font-family-->
+  <h1 style="text-align: center; font-family: cursive;">Profile</h1>
+  <h2 style="text-align: center; font-family: cursive; font-weight:normal">
+    I'm Tnanadorn Wannakat</h2>
+  <h4 style="text-align: center; font-family: Aclonica ; font-weight:normal"><i>
+      "Belive the Impossible is Possible."</i></h4>
+  <hr>
+  <!-- Menu -->
+  <table style="width:100%; text-align: center">
+    <tr>
+      <td>
+        <Button class="btn-4" href="index.html">Profile</Button>
+      </td>
+      <td>
+        <Button class="btn-4" href="contact.html">Contact</Button>
+      </td>
+    </tr>
+  </table>
+  <hr>
+  <table>
+    <tr>
+      <th style="width: 33.33%; vertical-align: top;">
+        <h2>About me</h2>
+        <p style="font-weight:normal; text-align: justify;">&nbsp;&nbsp;&nbsp;
+
+        </p>
+        <p>Email: <a href="mailto:borirak.dabc@bumail.net">thanandorn.wann@bumai.net</a></p>
+      </th>
+      <th style="width: 33.33%; vertical-align: top;">
+        <!--Crop Circle Image: https://crop-circle.imageonline.co/-->
+        <p><img
+            src="https://scontent.fbkk13-2.fna.fbcdn.net/v/t39.30808-6/288559449_1436527996843444_4328702160863813768_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=6kqUCbmwK6QAX_CQauX&_nc_ht=scontent.fbkk13-2.fna&oh=00_AT-b-j8Lc4fy2VgBw3qHtgdcjBHdi59LnzB6W4QnSPC5Dg&oe=632A6EE9"
+            alt="Borirak Dabchimplee" style="width: 60%;"></p>
+      </th>
+      <th style="width: 33.33%; vertical-align: top; text-align: left;">
+        <h2>Details</h2>
+        <p>Name:</p>
+        <p style="font-weight:normal;">Thanandorn Wannakat</p>
+        <p>Location:</p>
+        <p style="font-weight:normal;">Thailand</p>
+        <p>Social Media:</p>
+        <!--Reference Social Media Icons-->
+        <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!--Icons Class Reference: https://www.w3schools.com/icons/icons_reference.asp-->
+        <p><a href="https://www.facebook.com/profile.php?id=100012819999536" class="fa fa-facebook-square"
+            target="_blank" style="font-size: 40px; color: rgb(7, 114, 255);"></a>
+          <a href="https://www.instagram.com/jnbrrdcp/" class="fa fa-instagram" target="_blank"
+            style="font-size: 40px; color: brown;"></a>
+
+        </p>
+      </th>
+    </tr>
+  </table>
+  <hr>
+  <p style="text-align: center;">© 2022 Thanandorn Wannakat</p>
+</body>
+
+</html>
